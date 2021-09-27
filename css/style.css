@@ -4,6 +4,7 @@
     --gris: rgb(238, 238, 238);
     --blanco: rgb(255, 255, 255);
     --azul: rgb(36, 87, 255);
+    --azul-hover: rgb(57, 103, 255);
 }
 
 * {
@@ -24,7 +25,7 @@ body {
 }
 
 .tarjeta {
-    overflow: scroll;
+    overflow-y: scroll;
     background-color: white;
     height: 60%;
     width: 25%;
@@ -55,6 +56,9 @@ a {
     border-radius: 5px;
     text-decoration: none;
     padding: 10px 20px;
+}
+a:hover{
+    background-color: var(--azul-hover);
 }
 
 .boton
